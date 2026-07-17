@@ -1,6 +1,0 @@
-vlib work
-vlog project_1.v reg+mux.v DSP_tb.v
-vsim -voptargs=+acc work.DSP_tb
-add wave *
-run -all
-#quit -sim
