@@ -1,1 +1,1 @@
-
+A collection of hands-on projects completed during my Digital IC Design, ASIC Back-End Design, and Digital Verification diploma training, covering RTL design, ASIC implementation, and verification methodologies.
