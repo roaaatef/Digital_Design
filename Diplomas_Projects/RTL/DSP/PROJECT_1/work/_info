@@ -1,0 +1,176 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1741181564
+VF>7e=]KA^<<HVeNPbY4b40
+Z2 04 6 4 work DSP_tb fast 0
+=6-346f24ec4891-67c8527b-3bd-5cbc
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1741218284
+VW`<Vf<i6^>D0?Ci?bg<c93
+R2
+=14-346f24ec4891-67c8e1ec-5d-a00
+R3
+R4
+R5
+n@_opt1
+R6
+vDSP
+Z7 !s110 1741218278
+!i10b 1
+!s100 cRKIz<cd2ZZ_iiRb_ABC30
+IVT23lA@l1F67:X>gBj:iX0
+Z8 dD:/KareemWaseem/Questa_sem/PROJECT_1
+w1741175490
+8D:/KareemWaseem/Questa_sem/PROJECT_1/project_1.v
+FD:/KareemWaseem/Questa_sem/PROJECT_1/project_1.v
+!i122 263
+L0 2 234
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1741218278.000000
+!s107 D:/KareemWaseem/Questa_sem/PROJECT_1/project_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/KareemWaseem/Questa_sem/PROJECT_1/project_1.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@d@s@p
+vDSP_tb
+Z13 !s110 1741218279
+!i10b 1
+!s100 MZC1l8HVm=g`fA8a<jjO@2
+I<eS_=I6m2P7S6l>5l6fP<1
+R8
+w1741218271
+8D:/KareemWaseem/Questa_sem/PROJECT_1/DSP_tb.v
+FD:/KareemWaseem/Questa_sem/PROJECT_1/DSP_tb.v
+!i122 267
+L0 1 331
+R9
+R10
+r1
+!s85 0
+31
+Z14 !s108 1741218279.000000
+!s107 D:/KareemWaseem/Questa_sem/PROJECT_1/DSP_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/KareemWaseem/Questa_sem/PROJECT_1/DSP_tb.v|
+!i113 0
+R12
+R5
+n@d@s@p_tb
+vreg_plus_mux
+R7
+!i10b 1
+!s100 62F2K>RXS?X;nX8;04O3P0
+I0Oh`]M;TU]8=mO3>f2J_]1
+R8
+w1741169475
+8D:/KareemWaseem/Questa_sem/PROJECT_1/reg+mux.v
+FD:/KareemWaseem/Questa_sem/PROJECT_1/reg+mux.v
+!i122 264
+L0 1 35
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 D:/KareemWaseem/Questa_sem/PROJECT_1/reg+mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/KareemWaseem/Questa_sem/PROJECT_1/reg+mux.v|
+!i113 0
+R12
+R5
+vreg_plus_mux_asy
+R13
+!i10b 1
+!s100 @>b9[3;HZTTTmGaeXfVD?0
+IlFV_XGE0=acQ;koVkE=Rk3
+R8
+w1741166679
+8D:/KareemWaseem/Questa_sem/PROJECT_1/reg+muk_asy.v
+FD:/KareemWaseem/Questa_sem/PROJECT_1/reg+muk_asy.v
+!i122 266
+L0 1 20
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 D:/KareemWaseem/Questa_sem/PROJECT_1/reg+muk_asy.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/KareemWaseem/Questa_sem/PROJECT_1/reg+muk_asy.v|
+!i113 0
+R12
+R5
+vRST_asyn
+R13
+!i10b 1
+!s100 BDXzRk3IRJlT:Y6:<XLF^1
+I:^R<0d4P@a7hoizo;8aXi2
+R8
+w1741095837
+8D:/KareemWaseem/Questa_sem/PROJECT_1/rst_asyn.v
+FD:/KareemWaseem/Questa_sem/PROJECT_1/rst_asyn.v
+!i122 265
+L0 1 17
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 D:/KareemWaseem/Questa_sem/PROJECT_1/rst_asyn.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/KareemWaseem/Questa_sem/PROJECT_1/rst_asyn.v|
+!i113 0
+R12
+R5
+n@r@s@t_asyn
