@@ -1,0 +1,6 @@
+vlib work
+vlog Q5.v Q5_tb.v
+vsim -voptargs=+acc work.fifo_tb
+add wave *
+run -all
+#quit -sim
