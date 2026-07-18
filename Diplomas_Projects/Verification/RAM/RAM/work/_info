@@ -1,0 +1,155 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1757604071
+VRIMTW>Hff1[?OP;<;Z[ec2
+04 6 4 work RAM_TB fast 0
+=1-346f24ec4891-68c2e8e6-2b4-eac
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vRAM
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1757622339
+!i10b 1
+!s100 jTJ4OQ]8F^>f4V[ZE=Rz70
+Iha6o>YOc^Q4?m?SPZz6Ac0
+S1
+Z5 dD:/RORO/data/VERIFICATION/questa/Assignment_3/RAM
+w1757603899
+8RAM.sv
+FRAM.sv
+!i122 88
+L0 1 17
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z8 !s108 1757622339.000000
+!s107 RAM_TB.sv|RAM.sv|
+Z9 !s90 -reportprogress|300|RAM.sv|RAM_TB.sv|+cover|-covercells|
+!i113 0
+Z10 !s102 +cover -covercells
+Z11 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@r@a@m
+XRAM_P
+R3
+R4
+!i10b 1
+!s100 FTo0m85ied94lm[h5BH2:1
+I;d9WXQ^4:4N8UUWgmcj_h2
+S1
+R5
+w1757413055
+8RAM_P.sv
+FRAM_P.sv
+!i122 87
+Z12 L0 1 0
+V;d9WXQ^4:4N8UUWgmcj_h2
+R7
+r1
+!s85 0
+31
+R8
+!s107 RAM_P.sv|
+!s90 -reportprogress|300|RAM_P.sv|+cover|-covercells|
+!i113 0
+R10
+R11
+R2
+n@r@a@m_@p
+vRAM_TB
+R3
+Z13 DXx4 work 5 RAM_P 0 22 ;d9WXQ^4:4N8UUWgmcj_h2
+DXx4 work 14 RAM_TB_sv_unit 0 22 TD]Dz6DLQ_<EZ3Zj9kcSS0
+R4
+R6
+r1
+!s85 0
+!i10b 1
+!s100 fgG1[SD?<h6RAbfX^^Q``2
+IHZf95N@RAHe5@Rj7;`SD:1
+!s105 RAM_TB_sv_unit
+S1
+R5
+Z14 w1757603993
+Z15 8RAM_TB.sv
+Z16 FRAM_TB.sv
+!i122 88
+L0 2 108
+R7
+31
+R8
+Z17 !s107 RAM_TB.sv|RAM.sv|
+R9
+!i113 0
+R10
+R11
+R2
+n@r@a@m_@t@b
+XRAM_TB_sv_unit
+R3
+R13
+R4
+VTD]Dz6DLQ_<EZ3Zj9kcSS0
+r1
+!s85 0
+!i10b 1
+!s100 aN_7H]35C?DMH3k1=Aokm3
+ITD]Dz6DLQ_<EZ3Zj9kcSS0
+!i103 1
+S1
+R5
+R14
+R15
+R16
+!i122 88
+R12
+R7
+31
+R8
+R17
+R9
+!i113 0
+R10
+R11
+R2
+n@r@a@m_@t@b_sv_unit
