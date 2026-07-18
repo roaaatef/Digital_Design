@@ -1,0 +1,133 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+Z1 !s110 1758104958
+VJ6QX3@I6kH6KfC2VjccmX3
+04 7 4 work ALSU_TB fast 0
+=1-346f24ec4891-68ca8d7e-157-7318
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vALSU
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 3P4>;eDon4YbD[9]7iXKm0
+IOTlOe0lT=d0AVdS^1j7VU2
+S1
+Z4 dD:/RORO/data/VERIFICATION/questa/Assignment_4/ALSU_2
+w1758037816
+8ALSU.sv
+FALSU.sv
+!i122 21
+L0 1 121
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1758104957.000000
+Z8 !s107 ALSU_TB.sv|ALSU.sv|
+Z9 !s90 -reportprogress|300|ALSU.sv|ALSU_TB.sv|+cover|-covercells|
+!i113 0
+Z10 !s102 +cover -covercells
+Z11 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@s@u
+XALSU_P
+R3
+!s110 1758104957
+!i10b 1
+!s100 Da_OZkk2^10NN=lIc^RUY3
+I=l`ZlMOEY>3HLW45UH4z11
+S1
+R4
+w1758104940
+8ALSU_P.sv
+FALSU_P.sv
+!i122 20
+L0 1 0
+V=l`ZlMOEY>3HLW45UH4z11
+R6
+r1
+!s85 0
+31
+R7
+!s107 ALSU_P.sv|
+!s90 -reportprogress|300|ALSU_P.sv|+cover|-covercells|
+!i113 0
+R10
+R11
+R2
+n@a@l@s@u_@p
+vALSU_TB
+R3
+Z12 DXx4 work 6 ALSU_P 0 22 =l`ZlMOEY>3HLW45UH4z11
+DXx4 work 15 ALSU_TB_sv_unit 0 22 <AGUZW7[ARk40lV1Olbo21
+R1
+R5
+r1
+!s85 0
+!i10b 1
+!s100 [5kIEmG9[OJF6Gm>?LP0m1
+IU9gj@`N<@82VcVVWZ3D>X2
+!s105 ALSU_TB_sv_unit
+S1
+R4
+Z13 w1758037840
+Z14 8ALSU_TB.sv
+Z15 FALSU_TB.sv
+!i122 21
+L0 3 207
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+n@a@l@s@u_@t@b
+XALSU_TB_sv_unit
+R3
+R12
+R1
+V<AGUZW7[ARk40lV1Olbo21
+r1
+!s85 0
+!i10b 1
+!s100 XgQNlNGmF2EVm[f3OWLfa1
+I<AGUZW7[ARk40lV1Olbo21
+!i103 1
+S1
+R4
+R13
+R14
+R15
+!i122 21
+L0 2 0
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+n@a@l@s@u_@t@b_sv_unit
