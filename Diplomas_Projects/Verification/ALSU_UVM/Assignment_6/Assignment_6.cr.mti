@@ -1,0 +1,179 @@
+D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_driver_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_driver_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_driver_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package alsu_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv {2 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(79): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(86): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(91): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(97): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(102): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(107): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(112): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_coverage_pkg.sv(122): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_seq_item_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_seq_item_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_pkg
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_seq_item_pkg.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_agent_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_agent_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_agent_pkg.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_sequencer_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package alsu_monitor_pkg
+-- Importing package alsu_driver_pkg
+-- Importing package alsu_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_monitor_pkg.sv {0 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_monitor_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_monitor_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shared_pkg
+-- Importing package alsu_seq_item_pkg
+** Error (suppressible): (vlog-13276) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_monitor_pkg.sv(43): Could not find field/method name (expected_out) in 'rsp_seq_item' of 'rsp_seq_item.expected_out'.
+** Error (suppressible): (vlog-13276) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_monitor_pkg.sv(44): Could not find field/method name (leds_expected) in 'rsp_seq_item' of 'rsp_seq_item.leds_expected'.
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_sva.sv {0 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_sva.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: (vlog-13069) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_sva.sv(56): near ";": syntax error, unexpected ';'.
+
+} {3.0 4.0} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_env_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_env_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_env_pkg.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_agent_pkg
+-- Importing package alsu_sequencer_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package alsu_monitor_pkg
+-- Importing package alsu_driver_pkg
+-- Importing package alsu_config_pkg
+-- Importing package alsu_scoreboard_pkg
+-- Importing package alsu_coverage_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_reset_seq_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_reset_seq_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_reset_seq_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_reset_seq_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shared_pkg
+-- Importing package alsu_seq_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_scoreboard_pkg.sv {0 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_scoreboard_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_scoreboard_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_scoreboard_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+** Error (suppressible): (vlog-13276) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_scoreboard_pkg.sv(37): Could not find field/method name (expected_out) in 'seq_item_sb' of 'seq_item_sb.expected_out'.
+** Error (suppressible): (vlog-13276) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_scoreboard_pkg.sv(37): Could not find field/method name (leds_expected) in 'seq_item_sb' of 'seq_item_sb.leds_expected'.
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_main_seq_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_main_seq_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_main_seq_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_main_seq_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_config_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_config_pkg.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/ALSU.sv {2 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/ALSU.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/RORO/data/VERIFICATION/questa/Assignment_6/ALSU.sv(1): (vlog-13233) Design unit "ALSU_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package ALSU_sv_unit
+-- Importing package shared_pkg
+-- Compiling module ALSU
+
+Top level modules:
+	ALSU
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_test_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_test_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_test_pkg.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_agent_pkg
+-- Importing package alsu_sequencer_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package alsu_monitor_pkg
+-- Importing package alsu_driver_pkg
+-- Importing package alsu_config_pkg
+-- Importing package alsu_main_seq_pkg
+-- Importing package alsu_reset_seq_pkg
+-- Importing package alsu_env_pkg
+-- Importing package alsu_scoreboard_pkg
+-- Importing package alsu_coverage_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/shared_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/shared_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_sequencer_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_sequencer_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package alsu_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/RORO/data/VERIFICATION/questa/Assignment_6/alsu_sequencer_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package alsu_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}
