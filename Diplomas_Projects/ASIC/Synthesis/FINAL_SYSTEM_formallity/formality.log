@@ -1,0 +1,22 @@
+Info:  Net Ref:/WORK/SYS_TOP/framing_error is undriven.
+Info:  Net Ref:/WORK/SYS_TOP/parity_error is undriven.
+Info:  Net Imp:/WORK/SYS_TOP/parity_error is undriven.
+Info:  Net Imp:/WORK/SYS_TOP/framing_error is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[7] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[6] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[5] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[4] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[3] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[2] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[1] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[0] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/divide_by_0 is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW01_sub_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW01_add_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW01_add_1/CO is undriven.
+Info:  guide_uniquify 122 (Line: 1018)  Cannot find object "clk_div_2/U15" in design 'SYS_TOP'.
+Info:  SVF Operation 122 (Line: 1018) - uniquify.  Status: rejected
+Info:  guide_uniquify 122 (Line: 1018)  Cannot find object "clk_div_1/U15" in design 'SYS_TOP'.
+Info:  guide_uniquify 130 (Line: 1058)  Cannot find object "alu/dp_cluster_0/mult_20" in design 'SYS_TOP'.
+Info:  Pre-verification of Ref:/WORK/ALU_WIDTH8_FUNC4/div_24 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/ALU_WIDTH8_FUNC4/mult_20 SUCCEEDED.
