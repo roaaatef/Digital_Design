@@ -1,0 +1,6 @@
+vlib work
+vlog ALSU_DFF.v Q1_FINAL.v Q11_tb.v
+vsim -voptargs=+acc work.ALSU_tb
+add wave *
+run -all
+#quit -sim

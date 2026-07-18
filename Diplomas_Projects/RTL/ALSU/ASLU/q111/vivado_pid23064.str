@@ -1,0 +1,131 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 23064
+License: Customer
+
+Current time: 	Sat Jul 18 02:29:20 EET 2026
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 38 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/RORO/programs/VIVADO/setup/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/RORO/programs/VIVADO/setup/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	LOQ
+User home directory: C:/Users/LOQ
+User working directory: D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/RORO/programs/VIVADO/setup/Vivado
+HDI_APPROOT: D:/RORO/programs/VIVADO/setup/Vivado/2018.2
+RDI_DATADIR: D:/RORO/programs/VIVADO/setup/Vivado/2018.2/data
+RDI_BINDIR: D:/RORO/programs/VIVADO/setup/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/LOQ/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/LOQ/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/LOQ/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/RORO/programs/VIVADO/setup/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/vivado.log
+Vivado journal file location: 	D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/vivado.jou
+Engine tmp dir: 	D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/.Xil/Vivado-23064-DESKTOP-6CACQKU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/RORO/programs/VIVADO/setup/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/RORO/programs/VIVADO/setup/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/RORO/programs/VIVADO/setup/Vivado/2018.2
+XILINX_SDK: D:/RORO/programs/VIVADO/setup/SDK/2018.2
+XILINX_VIVADO: D:/RORO/programs/VIVADO/setup/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/RORO/programs/VIVADO/setup/Vivado/2018.2
+
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 602 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 35 MB (+33859kb) [00:00:05]
+// [Engine Memory]: 307 MB (+170748kb) [00:00:05]
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 71 MB (+36079kb) [00:00:15]
+// [Engine Memory]: 528 MB (+215204kb) [00:00:15]
+// Opening Vivado Project: D:\RORO\data\KareemWaseem\Questa_sem\Assignment_4\q111\q111.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/q111.xpr 
+// [GUI Memory]: 79 MB (+4643kb) [00:00:18]
+// [Engine Memory]: 604 MB (+51856kb) [00:00:18]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/q111.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/KareemWaseem/Questa_sem/Assignment_4/q111' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 623 MB. GUI used memory: 33 MB. Current time: 7/18/26 2:29:23 AM EET
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/RORO/programs/VIVADO/setup/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 643 MB (+9691kb) [00:00:23]
+// [Engine Memory]: 688 MB (+12975kb) [00:00:28]
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 892.980 ; gain = 112.453 
+// Project name: q111; location: D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111; part: xc7a35ticpg236-1L
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jul 18 03:30:19 2026] Launched synth_1... Run output will be captured here: D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/q111.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 709 MB. GUI used memory: 39 MB. Current time: 7/18/26 2:30:28 AM EET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALSUU (Q1_FINAL.v)]", 1); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALSUU (Q1_FINAL.v)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ck)

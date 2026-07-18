@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jul 18 03:30:17 2026
+# Process ID: 30300
+# Current directory: D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/q111.runs/synth_1
+# Command line: vivado.exe -log ALSUU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALSUU.tcl
+# Log file: D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/q111.runs/synth_1/ALSUU.vds
+# Journal file: D:/RORO/data/KareemWaseem/Questa_sem/Assignment_4/q111/q111.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALSUU.tcl -notrace
