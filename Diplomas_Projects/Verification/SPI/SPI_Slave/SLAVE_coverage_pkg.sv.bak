@@ -1,0 +1,78 @@
+package SLAVE_coverage_pkg;
+	import uvm_pkg::*;
+	import SLAVE_seq_item_pkg::*;
+	`include "uvm_macros.svh"	
+	class SLAVE_coverage extends uvm_component;
+  		`uvm_component_utils(SLAVE_coverage)
+  		uvm_analysis_export #(SLAVE_seq_item) coverage_export;
+  		uvm_tlm_analysis_fifo #(SLAVE_seq_item) cov_fifo;
+  		SLAVE_seq_item seq_item_cov;
+        /*.............................cover group.............................*/
+        covergroup SLAVE_cg ;
+	
+	mosi: coverpoint seq_item_cov.MOSI
+	{
+	bins w_adrr=(1'b0=>1'b0=>1'b0);
+	bins w_data =(1'b0=>1'b0=>1'b1);
+	bins r_addr =(1'b1=>1'b1=>1'b0);
+	bins r_data =(1'b1=>1'b1=>1'b1);
+	}
+	ssn : coverpoint seq_item_cov.SS_n
+	{
+	bins normal_operation =(1=>0[*13]=>1);
+	bins read_data = (1=>0[*23]=>1);
+	}
+	c1: cross ssn,mosi
+	{
+	illegal_bins read_data_normal = binsof (ssn.normal_operation) &&binsof (mosi.r_data);
+	illegal_bins w_addr_read_data = binsof (ssn.read_data) &&binsof (mosi.w_adrr);
+	illegal_bins r_addr_read_data = binsof (ssn.read_data) &&binsof (mosi.r_addr);
+	illegal_bins w_data_read_data = binsof (ssn.read_data) &&binsof (mosi.w_data);
+	} 
+	
+
+endgroup
+covergroup  rx_cg;
+rx_data:coverpoint seq_item_cov.rx_data[9:8]
+	{
+	bins write_addr = {2'b00};
+	bins write_data = {2'b01};
+	bins read_addr = {2'b10};
+	bins read_data = {2'b11};
+	bins write_data_after_write_addr = (2'b00=>2'b01);
+	bins read_data_after_read_addr = (2'b10=>2'b11);
+	bins seq = (2'b00=>2'b01=>2'b10=>2'b11);
+	}	
+endgroup 
+/*................................................*/
+  		function new(string name = "SLAVE_coverage", uvm_component parent = null) ;
+    		super.new(name, parent);
+    		SLAVE_cg = new();
+    		rx_cg=new();
+  		endfunction
+
+  		function void build_phase(uvm_phase phase);
+		    super.build_phase(phase);
+		    coverage_export = new("coverage_export", this);
+		    cov_fifo = new("cov_fifo", this);
+		endfunction
+
+		function void connect_phase(uvm_phase phase);
+		    super.connect_phase(phase);
+		    coverage_export.connect(cov_fifo.analysis_export);
+		endfunction
+
+  		task run_phase(uvm_phase phase);
+		    super.run_phase(phase);
+		    forever begin
+			    cov_fifo.get(seq_item_cov);
+			     if ((seq_item_cov.rst_n)&&((seq_item_cov.SS_n))) begin
+			   rx_cg.sample();
+			end
+			   if ((seq_item_cov.rst_n)) begin
+			   SLAVE_cg.sample();
+			end
+    		end
+  		endtask
+	endclass
+endpackage 
