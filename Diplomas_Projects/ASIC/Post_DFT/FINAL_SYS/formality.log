@@ -1,0 +1,33 @@
+Info:  Net Ref:/WORK/SYS_TOP/framing_error is undriven.
+Info:  Net Ref:/WORK/SYS_TOP/parity_error is undriven.
+Info:  Net Ref:/WORK/SYS_TOP/SO[3] is undriven.
+Info:  Net Ref:/WORK/SYS_TOP/SO[2] is undriven.
+Info:  Net Ref:/WORK/SYS_TOP/SO[1] is undriven.
+Info:  Net Ref:/WORK/SYS_TOP/SO[0] is undriven.
+Info:  Net Imp:/WORK/SYS_TOP/parity_error is undriven.
+Info:  Net Imp:/WORK/SYS_TOP/framing_error is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[7] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[6] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[5] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[4] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[3] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[2] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[1] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/remainder[0] is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW_div_uns_0/divide_by_0 is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW01_sub_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW01_add_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_WIDTH8_FUNC4_DW01_add_1/CO is undriven.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "clk_div_2/U15" in design 'SYS_TOP'.
+Info:  SVF Operation 123 (Line: 998) - uniquify.  Status: rejected
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "clk_div_1/U15" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u4/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u3/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u1/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u0/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u6/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u5/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 123 (Line: 998)  Cannot find object "u2/U1" in design 'SYS_TOP'.
+Info:  guide_uniquify 131 (Line: 1050)  Cannot find object "alu/dp_cluster_0/mult_20" in design 'SYS_TOP'.
+Info:  Pre-verification of Ref:/WORK/ALU_WIDTH8_FUNC4/div_24 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/ALU_WIDTH8_FUNC4/mult_20 SUCCEEDED.
