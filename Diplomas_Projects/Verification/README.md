@@ -1,1 +1,1 @@
-
+This folder contains Digital Verification projects demonstrating verification methodologies, testbench development, constrained-random verification, assertions, functional coverage, code coverage, and UVM-based verification.
