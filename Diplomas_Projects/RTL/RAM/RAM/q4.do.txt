@@ -1,0 +1,6 @@
+vlib work
+vlog Q4_1.v Q4_1_tb.v
+vsim -voptargs=+acc work.spr_tb
+add wave *
+run -all
+#quit -sim
