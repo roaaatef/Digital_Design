@@ -1,0 +1,116 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+vALSU
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1758037518
+!i10b 1
+!s100 3P4>;eDon4YbD[9]7iXKm0
+If3:IAO;FEn0liKLiFdaI03
+S1
+Z1 dD:/RORO/data/VERIFICATION/questa/Assignment_4/ALSU
+w1757418238
+8D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU.sv
+FD:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU.sv
+!i122 6
+L0 1 121
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z4 !s108 1758037518.000000
+!s107 D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@a@l@s@u
+XALSU_P
+R0
+Z7 !s110 1758037519
+!i10b 1
+!s100 _inj6A][T;NcT7`J>4WQG1
+IFzUbTY?P8L7l_Oea58=[@3
+S1
+R1
+w1758037461
+8D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_P.sv
+FD:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_P.sv
+!i122 7
+L0 1 0
+VFzUbTY?P8L7l_Oea58=[@3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_P.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_P.sv|
+!i113 0
+R5
+R6
+n@a@l@s@u_@p
+vALSU_TB
+R0
+Z8 DXx4 work 6 ALSU_P 0 22 FzUbTY?P8L7l_Oea58=[@3
+DXx4 work 15 ALSU_TB_sv_unit 0 22 8eSjI8cPj;;mG;Zoh^S110
+R7
+R2
+r1
+!s85 0
+!i10b 1
+!s100 [5kIEmG9[OJF6Gm>?LP0m1
+In8zZ71gYP>ZcQj^QEOGoW1
+!s105 ALSU_TB_sv_unit
+S1
+R1
+Z9 w1757586628
+Z10 8D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_TB.sv
+Z11 FD:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_TB.sv
+!i122 8
+L0 3 207
+R3
+31
+Z12 !s108 1758037519.000000
+!s107 D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_TB.sv|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_TB.sv|
+!i113 0
+R5
+R6
+n@a@l@s@u_@t@b
+XALSU_TB_sv_unit
+R0
+R8
+R7
+V8eSjI8cPj;;mG;Zoh^S110
+r1
+!s85 0
+!i10b 1
+!s100 VIRJoKE5lC@Bgd5:1Ag5m2
+I8eSjI8cPj;;mG;Zoh^S110
+!i103 1
+S1
+R1
+R9
+R10
+R11
+!i122 8
+L0 2 0
+R3
+31
+R12
+Z14 !s107 D:\RORO\data\VERIFICATION\questa\Assignment_3\ALSU\ALSU_TB.sv|
+R13
+!i113 0
+R5
+R6
+n@a@l@s@u_@t@b_sv_unit
