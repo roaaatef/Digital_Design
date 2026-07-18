@@ -1,0 +1,41 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : UART_TX_TOP
+Version: K-2015.06
+Date   : Fri Sep 12 05:31:24 2025
+****************************************
+
+
+   max_delay/setup ('INREG' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   par/PAR_BIT_reg/D           68.60        2605.94 r     -2537.33  (VIOLATED)
+   ser/ser_data_reg/D          68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_0_/D    68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_2_/D    68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_3_/D    68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_4_/D    68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_5_/D    68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_6_/D    68.58        2605.85 r     -2537.27  (VIOLATED)
+   ser/serial_data_reg_1_/D    68.58        2605.81 r     -2537.23  (VIOLATED)
+   ser/serial_data_reg_7_/D    68.65        2605.81 r     -2537.16  (VIOLATED)
+   fsm/cs_reg_2_/D             68.60        2605.69 r     -2537.09  (VIOLATED)
+   fsm/cs_reg_0_/D             68.63        2605.33 r     -2536.71  (VIOLATED)
+   fsm/cs_reg_1_/D             68.55        2604.98 f     -2536.43  (VIOLATED)
+
+
+   max_delay/setup ('REGOUT' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   busy                     -2534.95           1.75 r     -2536.69  (VIOLATED)
+   TX_OUT                   -2534.95           1.68 r     -2536.63  (VIOLATED)
+
+
+1

@@ -1,0 +1,53 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : UART_TX_TOP
+Version: K-2015.06
+Date   : Fri Sep 12 05:20:46 2025
+****************************************
+
+
+   max_delay/setup ('INREG' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   ser/counter_reg_0_/SE       68.58        3000.61 r     -2932.03  (VIOLATED)
+   fsm/cs_reg_0_/SE            68.64        3000.61 r     -2931.97  (VIOLATED)
+   fsm/cs_reg_1_/SE            68.64        3000.61 r     -2931.97  (VIOLATED)
+   par/PAR_BIT_reg/SE          68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/counter_reg_2_/SE       68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/counter_reg_3_/SE       68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/ser_data_reg/SE         68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_0_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_1_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_2_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_3_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_4_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_5_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_6_/SE
+                               68.64        3000.61 r     -2931.97  (VIOLATED)
+   fsm/cs_reg_2_/SE            68.65        3000.61 r     -2931.97  (VIOLATED)
+   ser/counter_reg_1_/SE       68.65        3000.61 r     -2931.97  (VIOLATED)
+   ser/serial_data_reg_7_/SE
+                               68.70        3000.61 r     -2931.92  (VIOLATED)
+   fsm/cs_reg_0_/SI            68.70        3000.10 f     -2931.40  (VIOLATED)
+
+
+   max_delay/setup ('REGOUT' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   SO                       -2931.09           0.60 r     -2931.68  (VIOLATED)
+
+
+1

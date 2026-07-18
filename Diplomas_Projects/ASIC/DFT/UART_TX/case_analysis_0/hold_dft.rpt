@@ -1,0 +1,119 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : UART_TX_TOP
+Version: K-2015.06
+Date   : Fri Sep 12 05:20:46 2025
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c   Library: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: ser/counter_reg_0_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: ser/counter_reg_1_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  UART_TX_TOP        tsmc13_wl30           scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ser/counter_reg_0_/CK (SDFFRX2M)         0.00       0.00 r
+  ser/counter_reg_0_/QN (SDFFRX2M)         0.36       0.36 f
+  ser/counter_reg_1_/SI (SDFFRQX4M)        0.00       0.36 f
+  data arrival time                                   0.36
+
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.05       0.05
+  ser/counter_reg_1_/CK (SDFFRQX4M)        0.00       0.05 r
+  library hold time                       -0.30      -0.25
+  data required time                                 -0.25
+  -----------------------------------------------------------
+  data required time                                 -0.25
+  data arrival time                                  -0.36
+  -----------------------------------------------------------
+  slack (MET)                                         0.60
+
+
+  Startpoint: P_DATA[7] (input port clocked by CLK)
+  Endpoint: ser/serial_data_reg_7_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: INREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  UART_TX_TOP        tsmc13_wl30           scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                 2604.17    2604.17 f
+  P_DATA[7] (in)                                          0.20    2604.36 f
+  ser/P_DATA[7] (SERIALIZER_test_1)                       0.00    2604.36 f
+  ser/U46/Y (AND2X2M)                                     0.32    2604.68 f
+  ser/serial_data_reg_7_/D (SDFFRHQX8M)                   0.00    2604.68 f
+  data arrival time                                               2604.68
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.05       0.05
+  ser/serial_data_reg_7_/CK (SDFFRHQX8M)                  0.00       0.05 r
+  library hold time                                      -0.15      -0.10
+  data required time                                                -0.10
+  --------------------------------------------------------------------------
+  data required time                                                -0.10
+  data arrival time                                              -2604.68
+  --------------------------------------------------------------------------
+  slack (MET)                                                     2604.78
+
+
+  Startpoint: ser/ser_data_reg
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: TX_OUT (output port clocked by CLK)
+  Path Group: REGOUT
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  UART_TX_TOP        tsmc13_wl30           scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  ser/ser_data_reg/CK (SDFFRQX2M)          0.00       0.00 r
+  ser/ser_data_reg/Q (SDFFRQX2M)           0.73       0.73 f
+  ser/ser_data (SERIALIZER_test_1)         0.00       0.73 f
+  mux/ser_data (MUX)                       0.00       0.73 f
+  mux/U4/Y (CLKNAND2X2M)                   0.39       1.12 r
+  mux/U3/Y (NAND2X8M)                      0.71       1.83 f
+  mux/TX_OUT (MUX)                         0.00       1.83 f
+  TX_OUT (out)                             0.00       1.83 f
+  data arrival time                                   1.83
+
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.05       0.05
+  output external delay                -2604.17   -2604.12
+  data required time                              -2604.12
+  -----------------------------------------------------------
+  data required time                              -2604.12
+  data arrival time                                  -1.83
+  -----------------------------------------------------------
+  slack (MET)                                      2605.94
+
+
+1

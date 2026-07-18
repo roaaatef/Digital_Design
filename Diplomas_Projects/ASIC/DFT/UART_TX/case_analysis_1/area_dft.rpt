@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : area
+Design : UART_TX_TOP
+Version: K-2015.06
+Date   : Fri Sep 12 05:31:24 2025
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/UART_TX/Ass_DFT_1.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                           81
+Number of nets:                           191
+Number of cells:                          117
+Number of combinational cells:             94
+Number of sequential cells:                17
+Number of macros/black boxes:               0
+Number of buf/inv:                         42
+Number of references:                      10
+
+Combinational area:                982.544506
+Buf/Inv area:                      381.250799
+Noncombinational area:             601.293713
+Macro/Black Box area:                0.000000
+Net Interconnect area:           38360.193420
+
+Total cell area:                  1583.838219
+Total area:                      39944.031639
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ------------------
+UART_TX_TOP                       1583.8382    100.0   69.4253     0.0000  0.0000  UART_TX_TOP
+U7                                  15.2971      1.0   15.2971     0.0000  0.0000  mux2X1_1
+U8                                  16.4738      1.0   16.4738     0.0000  0.0000  mux2X1_0
+fsm                                365.9537     23.1  248.2837   117.6700  0.0000  FSM_test_1
+mux                                 61.1884      3.9   61.1884     0.0000  0.0000  MUX
+par                                198.8623     12.6  162.3846    36.4777  0.0000  PARITY_CALC_test_1
+ser                                856.6376     54.1  409.4916   447.1460  0.0000  SERIALIZER_test_1
+--------------------------------  ---------  -------  --------  ---------  ------  ------------------
+Total                                                 982.5445   601.2937  0.0000
+
+1

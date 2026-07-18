@@ -1,0 +1,48 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : UART_TX_TOP
+Version: K-2015.06
+Date   : Fri Sep 12 05:31:24 2025
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/UART_TX/Ass_DFT_1.0/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+UART_TX_TOP            tsmc13_wl30       scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+UART_TX_TOP                            1.44e-04 7.30e-05 1.40e+06 1.62e-03 100.0
+  U8 (mux2X1_0)                        3.99e-06 2.87e-07 2.20e+04 2.62e-05   1.6
+  U7 (mux2X1_1)                        6.39e-05 4.23e-06 1.88e+04 8.69e-05   5.4
+  fsm (FSM_test_1)                     1.36e-05 1.45e-05 4.10e+05 4.38e-04  27.1
+  par (PARITY_CALC_test_1)             7.42e-06 9.75e-06 2.12e+05 2.29e-04  14.2
+  mux (MUX)                            7.30e-06 1.25e-06 1.04e+05 1.12e-04   7.0
+  ser (SERIALIZER_test_1)              4.02e-05 4.16e-05 5.44e+05 6.26e-04  38.7
+1
